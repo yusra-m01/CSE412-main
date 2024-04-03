@@ -1,0 +1,129 @@
+/* App.css */
+.maroon-header {
+  background-color: #8c1d40;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+.maroon-header h1 {
+  margin: 0;
+}
+.container {
+  display: flex;
+  background-color: #d3d3d3;
+}
+.left-column {
+  margin-right: 20px;
+  max-width: 765px;
+}
+.department-search-button {
+  background-color: #8c1d40;
+  margin-bottom: 10px;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 140px;
+  height: 100px;
+}
+.center-section {
+  flex: 1;
+  padding: 10px;
+  margin-right: 80px;
+  margin-left: 80px;
+
+}
+.left-section,
+.right-section {
+  flex: 1;
+  padding: 10px;
+  margin-right: 80px;
+  margin-left: 80px;
+}
+.app-container {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+.switch-button-section {
+margin-bottom: 20px;
+flex: 1;
+margin-right: 20px;
+text-align: left;
+}
+/* Left side (Data section) */
+.data-section {
+  margin-bottom: 20px;
+  flex: 1;
+  margin-right: 20px;
+  text-align: left; /* Adjust text alignment if needed */
+}
+.data-section h2 {
+  color: #333;
+}
+.data-list {
+  list-style-type: none;
+  padding: 0;
+}
+.data-list li {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+/* Right side (Employees section) */
+.employees-section {
+  margin-bottom: 20px;
+  flex: 1;
+  text-align: left; /* Adjust text alignment if needed */
+}
+.employees-section h2 {
+  color: #333;
+}
+.employees-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.employees-list li {
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+.search-button {
+  background-color: #8c1d40;
+  border-radius: 6px;
+  color: white;
+}
+.search-button:hover {
+  background-color: #800000;
+}
+/* Buttons */
+.fetch-button,
+.switch-page-button,
+.return-button {
+  background-color: #8c1d40;
+  margin-bottom: 10px;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 120px;
+  margin-right: 10px;
+}
+
+.fetch-button:hover,
+.switch-page-button:hover,
+.return-button:hover {
+  background-color: #800000;
+  width: 120px;
+}
+
+  
